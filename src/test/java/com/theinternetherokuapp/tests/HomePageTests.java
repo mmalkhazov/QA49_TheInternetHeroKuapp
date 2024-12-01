@@ -13,7 +13,6 @@ public class HomePageTests extends TestBase {
     public void precondtition() {
         homePage = new HomePage(driver);
 
-
     }
 
     @Test
