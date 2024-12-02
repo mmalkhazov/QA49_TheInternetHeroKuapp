@@ -37,5 +37,31 @@ public class HomePage extends BasePage {
         return new FramesPage(driver);
     }
 
+    @FindBy(xpath = "//a[@href='/windows']")
+    WebElement multipleWindows;
+
+    public MultipleWindowsPage selectWindows() {
+        click(multipleWindows);
+        return new MultipleWindowsPage(driver);
+    }
+
+
+    @FindBy(xpath = "//a[@href='/dropdown']")
+    WebElement dropdown;
+
+    public DropdownListPage selectDropdownListPage() {
+        click(dropdown);
+        return new DropdownListPage(driver);
+    }
+
+    @FindBy(xpath = "//a[@href='/jqueryui/menu']")
+    WebElement jqueryuiMenu;
+
+    public JQueryUIMenuPage selectJQueryUIMenuPage() {
+        click(jqueryuiMenu);
+        return new JQueryUIMenuPage(driver);
+    }
+
+
 
 }
