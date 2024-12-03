@@ -62,6 +62,29 @@ public class HomePage extends BasePage {
         return new JQueryUIMenuPage(driver);
     }
 
+    @FindBy(xpath = "//a[@href='/horizontal_slider']")
+    WebElement horizontalSlider;
 
+    public HorizontalSliderPage selectHorizontalSliderPage() {
+        click(horizontalSlider);
+        return new HorizontalSliderPage(driver);
+    }
+
+    @FindBy(xpath = "//a[@href='/drag_and_drop']")
+    WebElement dragAndDrop;
+
+    public DragAndDropPage selectDragAndDropPage() {
+        click(dragAndDrop);
+        return new DragAndDropPage(driver);
+    }
+
+
+    @FindBy(xpath = "//a[@href='/hovers']")
+    WebElement hovers;
+
+    public HoversPage selectHoversPage() {
+        click(hovers);
+        return new HoversPage(driver);
+    }
 
 }

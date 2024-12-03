@@ -1,6 +1,7 @@
 package com.theinternetherokuapp.pages;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -41,6 +42,25 @@ public class BasePage {
         return new WebDriverWait(driver, Duration.ofSeconds(time))
                 .until(ExpectedConditions.textToBePresentInElement(element,text));
 
+    }
+
+
+    public void pause(int millis) {
+        try {
+            Thread.sleep(millis);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public boolean isElementDisplayed(WebElement element){
+        try{
+            element.isDisplayed();
+            return true;
+        }catch(NoSuchElementException ex){
+            ex.getMessage();
+            return false;
+        }
     }
 
 }
