@@ -8,12 +8,14 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.time.Duration;
 
 public class BasePage {
 
     protected WebDriver driver;
-//    public static JavascriptExecutor js;
+    public static JavascriptExecutor js;
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
@@ -60,6 +62,23 @@ public class BasePage {
         }catch(NoSuchElementException ex){
             ex.getMessage();
             return false;
+        }
+    }
+    public void verifyLinks(String url) {
+        try {
+            URL linkUrl = new URL(url);
+
+            //create URL connection and get response code
+            HttpURLConnection connection = (HttpURLConnection) linkUrl.openConnection();
+            connection.setConnectTimeout(5000);
+            connection.connect();
+            if (connection.getResponseCode() >= 400) {
+                System.out.println(url + " - " + connection.getResponseMessage() + " is a broken link");
+            } else {
+                System.out.println(url + " - " + connection.getResponseMessage());
+            }
+        } catch (Exception e) {
+            System.out.println(url + " - " + e.getMessage() + " Error occurred");
         }
     }
 

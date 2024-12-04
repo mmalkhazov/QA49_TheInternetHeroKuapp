@@ -1,8 +1,7 @@
 package com.theinternetherokuapp.pages;
 
 import com.theinternetherokuapp.pages.FramesPage.FramesPage;
-import com.theinternetherokuapp.pages.FramesPage.IframePage;
-import org.openqa.selenium.By;
+import com.theinternetherokuapp.pages.RedirectLinks.RedirectLinkPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -85,6 +84,23 @@ public class HomePage extends BasePage {
     public HoversPage selectHoversPage() {
         click(hovers);
         return new HoversPage(driver);
+    }
+
+    @FindBy(xpath = "//a[@href='/broken_images']")
+    WebElement brokenImages;
+
+    public BrokenImagesPage selectBrokenImagesPage() {
+        click(brokenImages);
+        return new BrokenImagesPage(driver);
+    }
+
+    @FindBy(xpath = "//a[@href='/redirector']")
+    WebElement redirectLink;
+
+
+    public RedirectLinkPage selectRedirectLinkPage() {
+        click(redirectLink);
+        return new RedirectLinkPage(driver);
     }
 
 }
