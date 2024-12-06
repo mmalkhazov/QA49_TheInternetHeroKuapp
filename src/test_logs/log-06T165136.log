@@ -1,0 +1,107 @@
+16:51:37.340 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Malkhaz Malkhazov\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+16:51:43.134 [main] INFO  c.t.tests.TestBase - Start test: nestedBottonFrameTest
+16:51:43.177 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //a[@href='/frames']
+16:51:43.177 [main] INFO  c.t.utils.MyListener - ****************************************
+16:51:43.258 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //a[@href='/frames']
+16:51:43.258 [main] INFO  c.t.utils.MyListener - ******************************************
+16:51:43.649 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //a[contains(text(),'Nested Frames')]
+16:51:43.649 [main] INFO  c.t.utils.MyListener - ****************************************
+16:51:43.709 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //a[contains(text(),'Nested Frames')]
+16:51:43.710 [main] INFO  c.t.utils.MyListener - ******************************************
+16:51:44.499 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //frame[@name='frame-bottom']
+16:51:44.499 [main] INFO  c.t.utils.MyListener - ****************************************
+16:51:44.534 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //frame[@name='frame-bottom']
+16:51:44.534 [main] INFO  c.t.utils.MyListener - ******************************************
+16:51:44.597 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //body[contains(text(),'BOTTOM')]
+16:51:44.598 [main] INFO  c.t.utils.MyListener - ****************************************
+16:51:44.636 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //body[contains(text(),'BOTTOM')]
+16:51:44.636 [main] INFO  c.t.utils.MyListener - ******************************************
+16:51:44.660 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //body[contains(text(),'BOTTOM')]
+16:51:44.660 [main] INFO  c.t.utils.MyListener - ****************************************
+16:51:44.684 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //body[contains(text(),'BOTTOM')]
+16:51:44.684 [main] INFO  c.t.utils.MyListener - ******************************************
+16:51:44.715 [main] INFO  c.t.tests.TestBase - Test result: PASSED nestedBottonFrameTest
+16:51:44.715 [main] INFO  c.t.tests.TestBase - *******************************************
+16:51:49.795 [main] INFO  c.t.tests.TestBase - Start test: nestedLeftFrameTest
+16:51:49.802 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //a[@href='/frames']
+16:51:49.803 [main] INFO  c.t.utils.MyListener - ****************************************
+16:51:49.862 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //a[@href='/frames']
+16:51:49.862 [main] INFO  c.t.utils.MyListener - ******************************************
+16:51:50.292 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //a[contains(text(),'Nested Frames')]
+16:51:50.292 [main] INFO  c.t.utils.MyListener - ****************************************
+16:51:50.336 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //a[contains(text(),'Nested Frames')]
+16:51:50.336 [main] INFO  c.t.utils.MyListener - ******************************************
+16:51:51.420 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //frame[@name='frame-top']
+16:51:51.420 [main] INFO  c.t.utils.MyListener - ****************************************
+16:51:51.458 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //frame[@name='frame-top']
+16:51:51.461 [main] INFO  c.t.utils.MyListener - ******************************************
+16:51:51.545 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //frame[@name='frame-left']
+16:51:51.545 [main] INFO  c.t.utils.MyListener - ****************************************
+16:51:51.582 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //frame[@name='frame-left']
+16:51:51.582 [main] INFO  c.t.utils.MyListener - ******************************************
+16:51:51.633 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //body[contains(text(),'LEFT')]
+16:51:51.633 [main] INFO  c.t.utils.MyListener - ****************************************
+16:51:51.662 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //body[contains(text(),'LEFT')]
+16:51:51.670 [main] INFO  c.t.utils.MyListener - ******************************************
+16:51:51.694 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //body[contains(text(),'LEFT')]
+16:51:51.694 [main] INFO  c.t.utils.MyListener - ****************************************
+16:51:51.721 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //body[contains(text(),'LEFT')]
+16:51:51.722 [main] INFO  c.t.utils.MyListener - ******************************************
+16:51:51.737 [main] INFO  c.t.tests.TestBase - Test result: PASSED nestedLeftFrameTest
+16:51:51.738 [main] INFO  c.t.tests.TestBase - *******************************************
+16:51:56.023 [main] INFO  c.t.tests.TestBase - Start test: nestedMiddleFrameTest
+16:51:56.031 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //a[@href='/frames']
+16:51:56.034 [main] INFO  c.t.utils.MyListener - ****************************************
+16:51:56.088 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //a[@href='/frames']
+16:51:56.088 [main] INFO  c.t.utils.MyListener - ******************************************
+16:51:56.587 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //a[contains(text(),'Nested Frames')]
+16:51:56.589 [main] INFO  c.t.utils.MyListener - ****************************************
+16:51:56.632 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //a[contains(text(),'Nested Frames')]
+16:51:56.632 [main] INFO  c.t.utils.MyListener - ******************************************
+16:51:57.335 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //frame[@name='frame-top']
+16:51:57.335 [main] INFO  c.t.utils.MyListener - ****************************************
+16:51:57.378 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //frame[@name='frame-top']
+16:51:57.379 [main] INFO  c.t.utils.MyListener - ******************************************
+16:51:57.449 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //frame[@name='frame-middle']
+16:51:57.449 [main] INFO  c.t.utils.MyListener - ****************************************
+16:51:57.480 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //frame[@name='frame-middle']
+16:51:57.481 [main] INFO  c.t.utils.MyListener - ******************************************
+16:51:57.525 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //div[@id='content' and contains(text(),'MIDDLE')]
+16:51:57.525 [main] INFO  c.t.utils.MyListener - ****************************************
+16:51:57.558 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //div[@id='content' and contains(text(),'MIDDLE')]
+16:51:57.558 [main] INFO  c.t.utils.MyListener - ******************************************
+16:51:57.577 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //div[@id='content' and contains(text(),'MIDDLE')]
+16:51:57.578 [main] INFO  c.t.utils.MyListener - ****************************************
+16:51:57.600 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //div[@id='content' and contains(text(),'MIDDLE')]
+16:51:57.601 [main] INFO  c.t.utils.MyListener - ******************************************
+16:51:57.619 [main] INFO  c.t.tests.TestBase - Test result: PASSED nestedMiddleFrameTest
+16:51:57.619 [main] INFO  c.t.tests.TestBase - *******************************************
+16:52:02.389 [main] INFO  c.t.tests.TestBase - Start test: nestedRightFrameTest
+16:52:02.391 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //a[@href='/frames']
+16:52:02.391 [main] INFO  c.t.utils.MyListener - ****************************************
+16:52:02.436 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //a[@href='/frames']
+16:52:02.436 [main] INFO  c.t.utils.MyListener - ******************************************
+16:52:02.946 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //a[contains(text(),'Nested Frames')]
+16:52:02.946 [main] INFO  c.t.utils.MyListener - ****************************************
+16:52:02.975 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //a[contains(text(),'Nested Frames')]
+16:52:02.975 [main] INFO  c.t.utils.MyListener - ******************************************
+16:52:03.734 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //frame[@name='frame-top']
+16:52:03.734 [main] INFO  c.t.utils.MyListener - ****************************************
+16:52:03.765 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //frame[@name='frame-top']
+16:52:03.765 [main] INFO  c.t.utils.MyListener - ******************************************
+16:52:03.811 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //frame[@name='frame-right']
+16:52:03.811 [main] INFO  c.t.utils.MyListener - ****************************************
+16:52:03.837 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //frame[@name='frame-right']
+16:52:03.837 [main] INFO  c.t.utils.MyListener - ******************************************
+16:52:03.879 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //body[contains(text(),'RIGHT')]
+16:52:03.879 [main] INFO  c.t.utils.MyListener - ****************************************
+16:52:03.902 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //body[contains(text(),'RIGHT')]
+16:52:03.902 [main] INFO  c.t.utils.MyListener - ******************************************
+16:52:03.923 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //body[contains(text(),'RIGHT')]
+16:52:03.923 [main] INFO  c.t.utils.MyListener - ****************************************
+16:52:03.943 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //body[contains(text(),'RIGHT')]
+16:52:03.943 [main] INFO  c.t.utils.MyListener - ******************************************
+16:52:03.960 [main] INFO  c.t.tests.TestBase - Test result: PASSED nestedRightFrameTest
+16:52:03.960 [main] INFO  c.t.tests.TestBase - *******************************************

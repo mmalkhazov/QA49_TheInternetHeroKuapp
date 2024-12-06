@@ -1,0 +1,6 @@
+11:37:19.098 [main] INFO  org.testng.internal.Utils -%PARSER_ERROR[kvp]- [TestNG] Running:
+  C:\Users\Malkhaz Malkhazov\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+11:37:29.991 [main] INFO  c.t.tests.TestBase -%PARSER_ERROR[kvp]- Start test: loginTest
+11:37:32.146 [main] INFO  c.t.tests.TestBase -%PARSER_ERROR[kvp]- Test result:Passed loginTest
+11:37:32.147 [main] INFO  c.t.tests.TestBase -%PARSER_ERROR[kvp]- *******************************************

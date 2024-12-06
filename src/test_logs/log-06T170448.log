@@ -1,0 +1,42 @@
+17:04:48.868 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Malkhaz Malkhazov\AppData\Local\JetBrains\IntelliJIdea2024.1\temp-testng-customsuite.xml
+
+17:04:54.072 [main] INFO  c.t.tests.TestBase - Start test: loginTest
+17:04:54.115 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //a[@href='/login']
+17:04:54.117 [main] INFO  c.t.utils.MyListener - ****************************************
+17:04:54.176 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //a[@href='/login']
+17:04:54.176 [main] INFO  c.t.utils.MyListener - ******************************************
+17:04:54.856 [main] INFO  c.t.utils.MyListener - The locator will find By.id: username
+17:04:54.856 [main] INFO  c.t.utils.MyListener - ****************************************
+17:04:54.894 [main] INFO  c.t.utils.MyListener - The locator found By.id: username
+17:04:54.894 [main] INFO  c.t.utils.MyListener - ******************************************
+17:04:54.991 [main] INFO  c.t.utils.MyListener - The locator will find By.id: username
+17:04:54.991 [main] INFO  c.t.utils.MyListener - ****************************************
+17:04:55.022 [main] INFO  c.t.utils.MyListener - The locator found By.id: username
+17:04:55.023 [main] INFO  c.t.utils.MyListener - ******************************************
+17:04:55.088 [main] INFO  c.t.utils.MyListener - The locator will find By.id: username
+17:04:55.088 [main] INFO  c.t.utils.MyListener - ****************************************
+17:04:55.123 [main] INFO  c.t.utils.MyListener - The locator found By.id: username
+17:04:55.124 [main] INFO  c.t.utils.MyListener - ******************************************
+17:04:55.217 [main] INFO  c.t.utils.MyListener - The locator will find By.id: password
+17:04:55.219 [main] INFO  c.t.utils.MyListener - ****************************************
+17:04:55.245 [main] INFO  c.t.utils.MyListener - The locator found By.id: password
+17:04:55.245 [main] INFO  c.t.utils.MyListener - ******************************************
+17:04:55.331 [main] INFO  c.t.utils.MyListener - The locator will find By.id: password
+17:04:55.331 [main] INFO  c.t.utils.MyListener - ****************************************
+17:04:55.362 [main] INFO  c.t.utils.MyListener - The locator found By.id: password
+17:04:55.362 [main] INFO  c.t.utils.MyListener - ******************************************
+17:04:55.408 [main] INFO  c.t.utils.MyListener - The locator will find By.id: password
+17:04:55.408 [main] INFO  c.t.utils.MyListener - ****************************************
+17:04:55.432 [main] INFO  c.t.utils.MyListener - The locator found By.id: password
+17:04:55.432 [main] INFO  c.t.utils.MyListener - ******************************************
+17:04:55.546 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //button[@class='radius']
+17:04:55.546 [main] INFO  c.t.utils.MyListener - ****************************************
+17:04:55.577 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //button[@class='radius']
+17:04:55.577 [main] INFO  c.t.utils.MyListener - ******************************************
+17:04:56.198 [main] INFO  c.t.utils.MyListener - The locator will find By.xpath: //a[@href='/logout']
+17:04:56.198 [main] INFO  c.t.utils.MyListener - ****************************************
+17:04:56.240 [main] INFO  c.t.utils.MyListener - The locator found By.xpath: //a[@href='/logout']
+17:04:56.240 [main] INFO  c.t.utils.MyListener - ******************************************
+17:04:56.742 [main] INFO  c.t.tests.TestBase - Test result: PASSED loginTest
+17:04:56.742 [main] INFO  c.t.tests.TestBase - *******************************************
