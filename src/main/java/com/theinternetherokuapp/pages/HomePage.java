@@ -103,4 +103,30 @@ public class HomePage extends BasePage {
         return new RedirectLinkPage(driver);
     }
 
+    @FindBy(xpath = "//a[@href='/checkboxes']")
+    WebElement checkboxes;
+
+
+    public CheckboxesPage selectCheckboxesPage() {
+        click(checkboxes);
+        return new CheckboxesPage(driver);
+    }
+
+    @FindBy(xpath = "//a[@href='/upload']")
+    WebElement fileUpload;
+
+
+    public FileUploaderPage selectFileUploaderPage() {
+        click(fileUpload);
+        return new FileUploaderPage(driver);
+    }
+
+    @FindBy(xpath = "//a[@href='/login']")
+    WebElement login;
+
+    public LoginPage selectLoginPage() {
+        click(login);
+        return new LoginPage(driver);
+    }
+
 }
