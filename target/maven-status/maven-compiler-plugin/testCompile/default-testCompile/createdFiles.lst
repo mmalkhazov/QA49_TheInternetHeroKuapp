@@ -1,0 +1,16 @@
+com\theinternetherokuapp\tests\DropdownListTests.class
+com\theinternetherokuapp\tests\HorizontalSliderTests.class
+com\theinternetherokuapp\tests\BrokenImagesTest.class
+com\theinternetherokuapp\tests\FileUploaderTests.class
+com\theinternetherokuapp\tests\CheckBoxesTests.class
+com\theinternetherokuapp\tests\JQueryUIMenuTests.class
+com\theinternetherokuapp\tests\RedirectLinkTests.class
+com\theinternetherokuapp\tests\TestBase.class
+com\theinternetherokuapp\tests\LoginTests.class
+com\theinternetherokuapp\tests\HoversTests.class
+com\theinternetherokuapp\tests\DragAndDropTests.class
+com\theinternetherokuapp\tests\MultipleWindowsTests.class
+com\theinternetherokuapp\tests\JavascriptAlertsTests.class
+com\theinternetherokuapp\tests\IframeTests.class
+com\theinternetherokuapp\tests\HomePageTests.class
+com\theinternetherokuapp\tests\NestedFramesTests.class

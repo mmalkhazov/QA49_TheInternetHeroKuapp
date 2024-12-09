@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="User" verbose="1">
+    <test name="User">
+        <classes>
+
+            <class name="com.theinternetherokuapp.tests.LoginTests"/>
+            <class name="com.theinternetherokuapp.tests.DropdownListTests"/>
+            <class name="com.theinternetherokuapp.tests.HomePageTests"/>
+            <class name="com.theinternetherokuapp.tests.CheckBoxesTests"/>
+<!--            <class name="com.theinternetherokuapp.tests.LoginTests"/>-->
+        </classes>
+    </test>
+</suite>
